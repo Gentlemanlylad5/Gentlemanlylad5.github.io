@@ -85,7 +85,7 @@ img{
   .company, .date{
     text-align:left;
   }
-  .addr{
+  .addr, .location{
     display:none;
   }
 
