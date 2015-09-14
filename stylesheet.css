@@ -84,6 +84,9 @@ img{
     text-align:left;
     font-size:20px;
   }
+  .date{
+     font-weight:normal;
+  }
     div{
     width:100%;
     display:block;
