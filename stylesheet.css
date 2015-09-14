@@ -43,12 +43,10 @@ header{
 .date{
   width:33.333%;
   text-align:right;
-  clear:both;
-  display:inline-block;
-  float:right;
 }
 .justify{
 	width:66.66%;
+  text-align:right;
 }
 .location{
 	font-weight:normal;
@@ -90,12 +88,10 @@ img{
     width:100%;
     display:block;
   }
-
-
-  }
   .addr, .location{
     display:none;
   }
+}
 
 }
 @media screen and (min-width:850px) {
