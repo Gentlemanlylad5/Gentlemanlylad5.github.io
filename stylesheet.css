@@ -43,12 +43,10 @@ header{
 .date{
   width:33.333%;
   text-align:right;
-  clear:both;
-  display:inline-block;
-  float:right;
 }
 .justify{
 	width:66.66%;
+  text-align:right;
 }
 .location{
 	font-weight:normal;
@@ -71,7 +69,7 @@ img{
   margin-left:33%;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:550px){
   header, .info, .right{
     display:block;
     text-align:left;
@@ -84,16 +82,25 @@ img{
     }
   .company, .date{
     text-align:left;
+    font-size:20px;
   }
-  .addr{
+  .date{
+     font-weight:normal;
+  }
+    div{
+    width:100%;
+    display:block;
+  }
+  .addr, .location{
     display:none;
   }
-
 }
+
 @media screen and (min-width:850px) {
   body{
-    width:850px;
+    max-width:850px;
     margin-left:auto;
     margin-right:auto;
   }
+}
 }
